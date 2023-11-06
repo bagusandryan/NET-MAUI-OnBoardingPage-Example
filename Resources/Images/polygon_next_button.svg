@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="160" viewBox="0 0 164 160">
+  <g id="polygon_next_button" transform="translate(-576.5 -1482)">
+    <path id="Polygon_1" data-name="Polygon 1" d="M62.9,9.205a44,44,0,0,1,38.2,0l27.572,13.287a44,44,0,0,1,23.8,29.853l6.821,29.905a44,44,0,0,1-8.488,37.206l-19.1,23.965A44,44,0,0,1,97.295,160H66.705A44,44,0,0,1,32.3,143.422L13.2,119.457A44,44,0,0,1,4.709,82.251L11.53,52.346a44,44,0,0,1,23.8-29.853Z" transform="translate(576.5 1482)" fill="#ef84c6"/>
+    <path id="arrow_back_FILL0_wght400_GRAD0_opsz24" d="M218.744-756.575l-27.02,27.02L198.6-722.8l38.6-38.6L198.6-800l-6.876,6.755,27.02,27.02H160v9.65Z" transform="translate(459.9 2328)" fill="#404040"/>
+  </g>
+</svg>
