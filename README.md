@@ -1,6 +1,6 @@
 # .NET MAUI OnBoardingPage Example
 
-A simple example of OnBoardingPage only using CarouselView 
+A simple example of OnBoardingPage only using CarouselView. The video tutorial can be found on [Android Makeover](https://www.youtube.com/watch?v=0x6Qo8EWglQ) YouTube.
 
 ## Authors
 
