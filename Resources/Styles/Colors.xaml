@@ -22,8 +22,8 @@
     <Color x:Key="AppBackgroundColor">#FAFAFA</Color>
     <Color x:Key="CardBackgroundColor">#EFEEEF</Color>
     
-    <SolidColorBrush x:Key="AppBackgroundBrush" Color="{StaticResource AppBackgroundColor}"/>
-    <SolidColorBrush x:Key="CardBackgroundBrush" Color="{StaticResource CardBackgroundColor}"/>
+    <SolidColorBrush x:Key="AppBackgroundBrush" Color="{AppThemeBinding Light={StaticResource AppBackgroundColor}, Dark={StaticResource Gray950}}"/>
+    <SolidColorBrush x:Key="CardBackgroundBrush" Color="{AppThemeBinding Light={StaticResource CardBackgroundColor}, Dark={StaticResource Gray900}}"/>
 
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
     <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>

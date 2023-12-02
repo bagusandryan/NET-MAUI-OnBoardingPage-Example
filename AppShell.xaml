@@ -3,9 +3,12 @@
     x:Class="GetEmDone.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:views="clr-namespace:GetEmDone.Views"
+    xmlns:views="clr-namespace:GetEmDone.Views" xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     Shell.FlyoutBehavior="Disabled">
-
+    <Shell.Behaviors>
+    <toolkit:StatusBarBehavior StatusBarColor="{AppThemeBinding Light={StaticResource AppBackgroundColor}, Dark={StaticResource Gray950}}"
+                               StatusBarStyle="{AppThemeBinding Light=DarkContent, Dark=LightContent}" />
+</Shell.Behaviors>
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate views:OnBoardingPage}"

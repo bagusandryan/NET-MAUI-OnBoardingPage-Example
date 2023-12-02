@@ -26,12 +26,12 @@ public partial class OnBoardingPage : ContentPage, INotifyPropertyChanged
 	{
 		InitializeComponent();
 
-        var rd = App.Current.Resources.MergedDictionaries.First();
-        this.Behaviors.Add(new StatusBarBehavior
-        {
-            StatusBarColor = (Color)rd["AppBackgroundColor"],
-            StatusBarStyle = StatusBarStyle.DarkContent
-        });
+        //var rd = App.Current.Resources.MergedDictionaries.First();
+        //this.Behaviors.Add(new StatusBarBehavior
+        //{
+        //    StatusBarColor = (Color)rd[""],
+        //    StatusBarStyle = StatusBarStyle.DarkContent
+        //});
 
         OnBoardingItems.Add(new OnBoardingItem("Welcome to Toodist",
             "A to-do list app that will help you stay organised and on top of your tasks.",
