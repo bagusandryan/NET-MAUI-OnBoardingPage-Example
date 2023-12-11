@@ -12,10 +12,10 @@
         </Grid.RowDefinitions>
         <CarouselView x:Name="OnBoardingCarouselView"
                       FlowDirection="LeftToRight"
-                      Loop="False"
                       ItemsSource="{Binding OnBoardingItems}"
                       Grid.Row="0"
-                      Margin="-20,0">
+                      Loop="{OnPlatform Android='False', iOS='True'}"
+                      Margin="{OnPlatform Android='-20,0', iOS='0'}">
              <CarouselView.ItemTemplate>
                  <DataTemplate>
                      <Frame HasShadow="False"
